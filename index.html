@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillSphere</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="container1">
+      <div class="item item-1">
+        <p>Welcome to</p>
+        <img src="skillsphere.png" id="logo" />
+      </div>
+      <div class="item item-2">
+        <h2>About Us</h2>
+        <p>
+          SkillSphere is a platform dedicated to enhancing your skills and knowledge.
+        </p>
+      </div>
+      <div class="item item-3">
+        <h2>Login now!</h2>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your username..."
+        /><br /><br />
+        <button id="login_button" onclick="login()">Login</button>
+        <br /><br />
+        <p>&copy; Made By The Team of 9-D</p>
+      </div>
+    </div>
+    <center>
+    <div class = "container2">
+      <div class = "item item-4">
+        <p>Hello! What would you like to learn today? </p>
+        <p>(Or you could type in your required skill directly in the chat.)</p>
+        <button id = "a" onclick = "1()">Programming</button>
+        <button id = "b" onclick = "2()">Guitar</button>
+        <button id = "c" onclick = "3()">Document Editing</button>
+        <button id = "d" onclick = "4()">Art</button>
+        <button id = "e" onclick = "5()">Cooking</button>
+        <button id = "f" onclick = "6()">Craft</button>
+        <button id = "g" onclick = "7()">Languages</button>
+        <button id = "logout_button" onclick = "logout()">Logout</button>
+      </div>
+    <div class = "item item-5">
+    <div class="chatbot-popup">
+      <!-- Chatbot Header -->
+      <!-- Chatbot Body -->
+      <div class="chat-body">
+          <!-- prettier-ignore -->
+          <div class="message-text"> Hey there  <br /> How can I help you today? </div>
+        </div>
+      </div>
+      <!-- Chatbot Footer -->
+      <div class="chat-footer">
+        <form action="#" class="chat-form">
+          <textarea placeholder="Message..." class="message-input" required></textarea>
+          <div class="chat-controls">
+            <button type="button"  id = "emoji-picker"  class="material-symbols-outlined">sentiment_satisfied</button>
+            <button type="submit"  id =  "sendMessage"  class="material-symbols-rounded">arrow_upward</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Linking Emoji Mart script for emoji picker -->
+    <script src="https://cdn.jsdelivr.net/npm/emoji-mart@latest/dist/browser.js"></script>
+    <!-- Linking custom script -->
+    <script src="script.js"></script>
+    <div class="heading-container">
+    </div>
+	</div>
+  </body>
+</html>
