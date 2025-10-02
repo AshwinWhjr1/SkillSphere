@@ -14,7 +14,7 @@ const chatBody = document.querySelector(".chat-body");
 const messageInput = document.querySelector(".message-input");
 const sendMessage = document.querySelector("#send-message");
 // API setup
-const API_KEY = "AIzaSyB-xWKqqzGPWKLtdWlgI2iO1vss4Iui630";
+//const API_KEY = ""; (NOT SHOWN FOR SECURITY)
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
 const userData = {
   message: null,
@@ -170,3 +170,4 @@ const picker = new EmojiMart.Picker({
     }
   },
 });
+
